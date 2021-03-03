@@ -1,96 +1,130 @@
-# User Experience Design
+## User Experience Design
 
-Welcome! In this assignment, you will work on designing the user experience of an imaginary web site consisting of no less than 5 pages. In particular, you will...
-
-- draft wireframe diagrams that are the equivalent of a blueprint to be used when designers and engineers design and develop the site, respectively.
-- draft a site map that shows the grouping and hierarchy of the various sections of the site
-- create a clickable prototype of the site, so stakeholders who want to understand your plans can get a visceral sense of what it will feel like to use the site as you have designed it.
-
-You will add a new page to your personal web site that shows the wireframe diagrams you have drafted and links to the clickable prototype you have created.
-
-## Requirements
-
-Some rules about the minimum work required to complete this assignment.
-
-On top of these requirements, you are welcome to add any additional work that you believe will make your plans for this site compelling and stimulating to someone finding it on the web.
-
+### App map
+![App Map](/ux-design/AppMap.PNG)
 ### Wireframes
 
-Use [draw.io](https://draw.io) to draft mobile** wireframes for the **mobile version\*\* your imaginary site.
+1\. **Home** <br><br>
+![1.A. Home page - basic version ](ux-design/Home.PNG)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Home page - basic version with opened menu](/ux-design/Home_popup.PNG) <br>
+1.A. Home page - basic version  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   1.B. Home page - basic version with opened menu <br><br>
+1.A. **Home page - basic version** <br>
+Description. This page is the version of the Home page with 'basic' input options and functionality and a closed hamburger menu. The page allows the user to enter citizenship, location and desired airport information and calculate the best travel locations personalised for them. Destinations will be ranked based on a cumulative points based system and the user can view and sort results based on the inputs and various COVID related data points.  <br>
+Optionally, the page allows to select additional inputs - once the user checks the 'advanced' box, additional input options and functionality will be displayed. Once the user checks the 'Calculate' button, he/she will be redirected to the confirmation page. <br><br>
+1.B. **Home page - basic version with opened menu** <br> 
+Description. This page is the version of the Home page page the 'basic' input options and functionality (as in 1.A) and contents of the hamburger menu displayed. The hamburger menu allows the user to navigate to the primary pages.<br><br>
+![1.C. Home page - advanced version ](/ux-design/Home_advanced.PNG)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![1.D. Home page - basic version with opened menu](/ux-design/Home_advanced_updates_popup.PNG)<br> <br>
+1.C. Home page - advanced version &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   1.D. Home page - basic version with opened menu <br> <br> 
+1.C. **Home page with 'advanced' box checked** <br> 
+Description. This page is the version of the 'Home page ' page with the advanced box checked and additional inputs and functionality made available to the user; the hamburger menu is closed. Advanced inputs include desired continent for travel, reason for travel, optional name and email address. The user can check the 'receive updates' box and additionally opt to receive emails with the rolling updates on his desired travel destination. <br><br>
+1.D. **Home page with 'advanced', 'receive updates' boxes checked** <br> 
+Description. This page is the version of the 'Home page ' page with the 'advanced' and 'receive updates' boxes checked and additional inputs and functionality made available to the user; the hamburger menu is closed. As described in 1.C, when the user checks the 'receive updates' box, he/she will receive emails with the rolling updates on his desired travel destination.<br><br><br>
 
-- create one wireframe for each distinct page of the site
-- if there are interactive behaviors you are proposing for the site, such as content that appears dynamically on a page when the user hovers or clicks on something, be sure to create a version of the wireframess for those pages without the dynamic content displayed, and another version with the dynamic content displayed.
-- the exact width of the wireframes is not important, but make sure every wireframe has the same width and looks suitable laid out for mobile devices.
+1.1. **Confirmation** <br> 
+![1.1.A. Confirmation - closed menu](/ux-design/Confirmation.PNG)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![1.1.B. Confirmation - opened menu](/ux-design/Confirmation_popup.PNG) <br>
+1.1.A. Confirmation - closed menu  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   1.1.B. Confirmation - opened menu <br><br>
 
-Export each wireframe diagram as a `.png` file - you will post these to your personal web site later.
+1.1.A. **Confirmation - closed menu** <br>
+Description: This page is a version of the Confirmation page with closed hamburger menu. The page allows the user to validate input entered in the home page. Particularly, the page allows the users to view the entered data (with suggested spelling edits) and the map focused on the user entered location. Confirmation of the location is required to resolve any ambiguity related to city names. For example, there can be several cities named Springfield across the country and even states - allowing the user to reconfirm location on the map will result in a better precision for the outcome. The page also allows the users to return to the home page with the calculations and edit inputs. <br><br>
+1.1.B. **Confirmation - opened menu** <br> 
+Description: This page is the version of the 'Comfirmation' page with the contents of the hamburger menu displayed. The hamburger menu allows the user to navigate to the primary pages.<br><br> 
 
-### Site map
+1.1.1. **View top locations** <br> 
+![1.1.1.A. View top locations - closed menu](/ux-design/TopLocation.PNG) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![1.1.1.A. View top locations - opened menu](/ux-design/TopLocation_popup.PNG) <br>
+1.1.1.A. View top locations - closed menu  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 1.1.1.B. View top locations - opened menu <br><br>
+1.1.1.A. **View top locations - closed menu** <br> 
+Description: The view top locations page allows the user to view the top three safest locations to travel to in terms of travel restrictions, covid-19 cases, and vacination rates. The page contains images of each location and links to view more covid-19 related details for each location. <br><br>
+1.1.1.B. **View top locations - opened menu** <br> 
+Description: This page is the version of the 'View Top Locations' page with the contents of the hamburger menu displayed.<br><br>
+1.1.1.1. **COVID details for location** <br> 
+![1.1.1.1.A. COVID details for location closed menu](/ux-design/CovidInfo.PNG) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![1.1.1.1.A. COVID details for location - opened menu](/ux-design/CovidInfo_popup.PNG) <br>
+1.1.1.1.A. COVID details for location - closed menu  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   1.1.1.1.B. COVID details for location - opened menu <br><br>
+1.1.1.1.A. **COVID details for location - closed menu** <br> 
+Description: In the page "View Top Locations," the user can navigate to the "COVID details for locationx" page to COVID related deatils. On the page, current number of COVID cases, percent of population vaccinated, motality risk, quarentine requirements, and Gov. stringency index, will be displayed.  <br><br> 
+1.1.1.1.B. **COVID details for location  - opened menu** <br> 
+Description: This page is the version of the 'COVID details for location' page with the contents of the hamburger menu displayed.<br><br> 
 
-Use draw.io to create a simple site map of your imaginary web site.
+1.1.1.1.1. **Flight details for location** <br> 
+![1.1.1.1.1.A. Flight details for location - closed menu](/ux-design/FlightInfo.PNG) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![1.1.1.1.A. COVID details for location - opened menu](/ux-design/FlightInfo_popup.PNG) <br>
+1.1.1.1.1.A. Flight details for location - closed menu  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;   1.1.1.1.1.B. Flight details for location - opened menu<br><br>
 
-Export the site map diagram as a `.png` file - you will post it to your personal web site later.
-
-### Clickable prototype
-
-Use the Prototype feature of [InvisionApp](https://invision.com/) to create a clickable **mobile** prototype.
-
-- upload the `.png` images of your wireframes to an InvisionApp project
-- set hotspots on each wireframe such that a viewer can click on the wireframes to see an approximation of how the real web site will function. Everything that you are intending to be clickable on the final site should be clickable on the prototype.
-
-Copy a link to your prototype. You will publish this link later to your personal web site.
-
-### Update your personal web site
-
-Create a new HTML document named `user_experience_design.html`. This page will display each of the wireframe diagrams, the site map, and a link to the clickable prototype of your imaginary site.
-
-## Before updating, copy your current site
-
-Before updating your personal site, copy all files from your existing personal web site, **except the `README.md` and `settings.json` files**, into this new project directory. This way, you will have a complete set of files for your web site in this new project directory and will not have to worry about accidentally deleting anything when you publish your updated web site later on.
-
-#### Page heading
-
-This page must have the general heading, `<h1>Use Exeperience Design</h1>`.
-
-#### Prototype section
-
-Create a `<section class='prototype'>` element with an `<h2>` heading that says, "`Clickable Prototype`".
-
-- use an `<a>` element to take visitors to your clickable prototype on InvisionApp when the link is clicked.
-
-#### Wireframe section
-
-Create a `<section class='wireframes'>` element with an `<h2>` heading that says, "`Wireframes`".
-
-- use `<img>` elements to publish each of your imaginary site's wireframe diagrams to this page. Style them so that they fit comfortably onto the page yet are eassy to view when viewed on a typical desktop web browser.
-
-#### Site Map section
-
-Create a `<sectionclass='site_map'>` element with an `<h2>` heading that says, "`Site Map`".
-
-- use an `<img>` element to publish your imaginary site's site map diagram to this page. Style it so that it fits comfortably onto the page yet is eassy to view when viewed on a typical desktop web browser.
-
-## Submit your work
-
-In order to submit this assignment, you must publish all modified files to the web and upload the code to GitHub.
-
-### Upload the web page to a web server
-
-Upload all files you have created to a web server. Your instructor will have given you instructions for how to do this.
-
-Take note of the web address (URL) of your web page - this is the address that can be plugged into the address bar of any web browser for the web browser to load and display your web page.
-
-### Update the settings.json file
-
-In the file named `settings.json`, update your name, Net ID, and URL of your personal site. Also add the URL of your clickable prototype into the appropriate field.
-
-### Submit your work on GitHub
-
-You are now ready to submit this assignment. You can do so directly from Visual Studio Code with the following steps, in the indicated order:
-
-1. Switch to the Source Control view in Visual Studio Code - this view will show you a list of the files you have modified.
-1. In the "`Message`" text field towards the top-left, enter a unique message to yourself about what you have changed and, while still with the text field selected, type `Command`-`Enter` on Mac OS X, or `Control`-`Enter` on Windows, to "commit" the changes you've made with this custom message. If you forget to hit `Command`-`Enter` after typing the message, you can instead click the "`...`" button above the message field and click the "`Commit all`" option in the menu that appears.
-1. Now, click the "`...`" button above the message field and click the "`Push`" option in the menu that appears - this will upload your changes to your personal code repository on GitHub.
-
-You have now submitted your completed assignment. Your changes are now posted to GitHub.com, where the instructor and graders can access it. Your `settings.json` file has information about who you are and where we can view your page on the web.
-
-You can verify all this yourself manually by visiting your repository on GitHub.com and making sure the code displayed there is what you submitted.
+1.1.1.1.1. **Flight details for location 1** <br> 
+1.1.1.1.1.A. **Flight details for location 1 - closed menu** <br>
+![Flight details for location 1 - closed menu](/ux-design/FlightInfo.PNG)<br> 
+Description:.  
+<br><br> 
+5.B. **Flight details for location 1 - opened menu** <br> 
+![Flight details for location 1 - opened menu](/ux-design/FlightInfo_popup.PNG)<br> 
+Description:.  
+<br><br> 
+6. **COVID details for location 2** <br> 
+6.A. **COVID details for location 2 - closed menu** <br> 
+![COVID details for location 2 - closed menu](/ux-design/CovidInfo.PNG)<br>
+Description: Same as COVID details for location 1
+<br><br>
+&emsp;&emsp;&emsp;6.B. **COVID details for location 2 - opened menu** <br> 
+&emsp;&emsp;&emsp;![COVID details for location 2 - opened menu](/ux-design/CovidInfo_popup.PNG)<br> 
+&emsp;&emsp;&emsp;Description: This page is the version of the 'COVID details for location' page with the contents of the hamburger menu displayed.
+<br><br>
+&emsp;&emsp;&emsp;&emsp;7. **Flight details for location 2** <br> 
+&emsp;&emsp;&emsp;&emsp;7.A. **Flight details for location 2 - closed menu** <br> 
+&emsp;&emsp;&emsp;&emsp;![Flight details for location 2 - closed menu](/ux-design/FlightInfo.PNG)<br> 
+&emsp;&emsp;&emsp;&emsp;Description:.  
+<br><br> 
+&emsp;&emsp;&emsp;&emsp;7.B. **Flight details for location 2 - opened menu** <br> 
+&emsp;&emsp;&emsp;&emsp;![Flight details for location 2 - opened menu](/ux-design/FlightInfo_popup.PNG)<br> 
+&emsp;&emsp;&emsp;&emsp;Description:.  
+<br><br> 
+&emsp;&emsp;&emsp;8. **COVID details for location 3** <br> 
+&emsp;&emsp;&emsp;8.A. **COVID details for location 3 - closed menu** <br> 
+&emsp;&emsp;&emsp;![COVID details for location 3 - closed menu](/ux-design/CovidInfo.PNG)<br> 
+&emsp;&emsp;&emsp;Description: Same as COVID details for location 1.
+<br><br>
+&emsp;&emsp;&emsp;8.B. **COVID details for location 3 - opened menu** <br> 
+&emsp;&emsp;&emsp;![COVID details for location 3 - opened menu](/ux-design/CovidInfo_popup.PNG)<br> 
+&emsp;&emsp;&emsp;Description: This page is the version of the 'COVID details for location' page with the contents of the hamburger menu displayed.
+<br><br>
+&emsp;&emsp;&emsp;&emsp;9. **Flight details for location 3** <br> 
+&emsp;&emsp;&emsp;&emsp;9.A. **Flight details for location 3 - closed menu** <br> 
+&emsp;&emsp;&emsp;&emsp;![Flight details for location 3 - closed menu](/ux-design/FlightInfo.PNG)<br> 
+&emsp;&emsp;&emsp;&emsp;Description:.  
+<br><br> 
+&emsp;&emsp;&emsp;&emsp;9.B. **Flight details for location 3 - opened menu** <br> 
+&emsp;&emsp;&emsp;&emsp;![Flight details for location 3 - opened menu](/ux-design/FlightInfo_popup.PNG)<br> 
+&emsp;&emsp;&emsp;&emsp;Description:.  
+<br><br> 
+10\. **About us** <br> 
+10.A. **About us - closed menu** <br> 
+![About us - closed menu](/ux-design/AboutUs.PNG)<br> 
+Description: This page will provide background information on the project and our purpose for creating it. It will display an image carousel at the top featuring safe locations to visit. It may also feature recent media articles related to our app as iframes. Users can click the "Meet the Team" button at the bottom to learn more about the team members. 
+<br><br> 
+10.B. **About us - opened menu** <br> 
+![About us - opened menu](/ux-design/AboutUs_popup.PNG)<br> 
+Description: "AboutUs" page with contents of hamburger menu. 
+<br><br>
+&emsp;11. **Meet the team** <br> 
+&emsp;11.A. **Meet the team - closed menu** <br> 
+&emsp;![Meet the team - closed menu](/ux-design/MeetTheTeam.PNG)<br>
+&emsp;Description: This page will provide individual background details of each team member. It will display pictures of each team member as well. 
+<br><br>
+&emsp;11.B. **Meet the team - opened menu** <br>
+&emsp;![Meet the team - opened menu](/ux-design/MeetTheTeam_popup.PNG)<br>
+&emsp;Description: "Meet the team" page with contents of hamburger menu. 
+<br><br> 
+12\. **Travel resources** <br>
+12.A. **Travel resources - closed menu** <br> 
+![Travel resources - closed menu](/ux-design/TravelResources.PNG)<br>
+Description: This page will provide links to resources about Travel restrictions, Travel reccomendations, Latest travel restrictions, and covid news in the form of infographics or iframes. 
+<br><br> 
+12.B. **Travel resources - opened menu** <br> 
+![Travel resources - closed menu](/ux-design/TravelResources_popup.PNG)<br>
+Description: "Travel Resources page" with contents of hamburger menu. 
+<br><br> 
+13\. **Contact us** <br> 
+13.A. **Contact us - closed menu** <br> 
+![Contact us - closed menu](/ux-design/ContactUs.PNG)<br>
+Description: This page allows the user to enter their name and email and send a message to us. The user can also navigate to the "about us" and "meet the team" pages.
+<br><br> 
+13.B. **Contact us - opened menu** <br>
+![Contact us - opened menu](/ux-design/ContactUs_popup.PNG)<br>
+Description: Same as "Description" page with contents of hamburger menu. 
+<br>
