@@ -1,5 +1,9 @@
 ## User Experience Design
 
+This is the completed User experience design assignment for the class Agile Software Development at NYU CAS. The instructions can be viewed in the ![instructions-app-map-wireframe.md](/instructions-app-map-wireframe.md)
+Below are the app map and wireframes designed for the software project. It is advised to view this README file in the newly opened tab.
+
+
 ### App map
 
 ![App Map](/ux-design/CovidTravelAgent-app-map.png)
